@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           </button>
         </header>
         {children}
-        <footer className="h-20">
+        <footer className="h-20 mt-10">
           <hr></hr>
           <div className="flex flex-col items-center justify-center gap-2 mt-2">
             <Image src={logo} width={60} height={60} className="rounded-xl" />
